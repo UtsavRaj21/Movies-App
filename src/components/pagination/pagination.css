@@ -1,0 +1,22 @@
+.pagination{
+    width: calc(100vw - 400px);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination-button{
+    height: 100%;
+    width: 40px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.pagination-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+

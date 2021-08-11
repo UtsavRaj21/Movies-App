@@ -1,0 +1,54 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-table-container {
+    width: calc(100vw - 200px);
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.movie-search{
+    height: 40px;
+    width: calc(100vw - 600px);
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: larger;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo1{
+    height: 40px;
+    margin-right: 8px;
+}
+.logo2{
+    height: 40px;
+}
+
+.logo1:hover,.logo2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.pagination{
+    display: flex;
+}
+
+.filter{
+    display: flex;
+}
+
+.rating-box{
+    margin-left: 15px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

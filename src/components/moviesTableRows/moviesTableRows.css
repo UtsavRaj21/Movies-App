@@ -1,0 +1,35 @@
+.movies-table-row {
+    display: flex;
+    height: 16.66%;
+    border: 1px solid gray;
+}
+
+.column {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-right:  1px solid gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.star1{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5px;*/
+}
+
+.star2{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5px;*/
+}

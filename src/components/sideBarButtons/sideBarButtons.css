@@ -1,0 +1,16 @@
+.sidebar-buttons{
+    height:10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.sidebar-buttons:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    
+    font-weight: 600;
+}
